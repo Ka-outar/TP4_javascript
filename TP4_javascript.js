@@ -8,6 +8,11 @@ function degreC(tempF){
 
 console.log(degreC(8));
 
+
+
+
+
+
 //exercice2
 function hjms(s){
     let nbj =  Math.floor(s / 86400);
@@ -20,6 +25,11 @@ function hjms(s){
 }
 
 console.log(hjms(235789));
+
+
+
+
+
 
 //exercice 2-bis
 function hjms(s){
@@ -46,7 +56,12 @@ function hjms(s){
     console.log(message);
 }
 
-console.log(hjms(3621));
+console.log(hjms(3621)); 
+
+
+
+
+
 
 //exercice 3
 
@@ -76,6 +91,12 @@ classer(14, 10, 17);
 classer(1, 2, 3);     
 classer(3, 1, 2);    
 console.log(classer(1,2,3));
+
+
+
+
+
+
 
 
 //exerice 4
@@ -116,6 +137,10 @@ const taille = 7;
  
 triangle1(taille);
 triangle2(taille);
+
+
+
+
 
 
 //exercice 4bis
@@ -166,6 +191,15 @@ console.log('\n--- Version centrée ---');
 pyramidecentree(tailleUtilisateur);
 
 
+
+
+
+
+
+
+
+
+
 //exercice 5
 function testerPremier(n) {
     let estPremier = true;
@@ -187,6 +221,10 @@ function testerPremier(n) {
 testerPremier(7);    
 testerPremier(25);   
 testerPremier(2);    
+
+
+
+
 
 
 //exercice 6
@@ -257,8 +295,6 @@ function fibo2(valeurLimite) {
   }
 }
 
- 
-
 console.log('--- PARTIE A : Calcul du nième terme ---');
  
 console.log('\nTest 1: n = 0');
@@ -295,6 +331,9 @@ console.log('\nTest 3: valeur limite = 1000');
 fibo2(1000);
 
 
+
+
+
 //exercice 7
 function raca1(A) {
   console.log(`\nCalcul de la racine carrée approchée de ${A}:`);
@@ -305,7 +344,7 @@ function raca1(A) {
     return null;
   }
   
-  
+
   let u = A / 2;
   let iteration = 0;
   let epsilon = Math.pow(10, -6);  
